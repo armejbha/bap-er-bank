@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind -link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-24">Let's get some <span class="text-yellow-300">Moooney!!!</span></h1>
+    </header>
+    <main>
+        <section class="w-3/4 mt-4 mx-auto">
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-blue-400 p-8 rounded">
+                    <h2 class="text-3xl text-white">Deposit</h2>
+                    <h2 class="text-3xl text-white">$<span>00</span></h2>
+                </div>
+                <div class="bg-green-400 p-8 rounded">
+                    <h2 class="text-3xl text-white">Withdraw</h2>
+                    <h2 class="text-3xl text-white">$<span>00</span></h2>
+                </div>
+                <div class="bg-yellow-400 p-8 rounded">
+                    <h2 class="text-3xl text-white">Balance</h2>
+                    <h2 class="text-3xl text-white">$<span>1024</span></h2>
+                </div>
+            </div>
+        </section>
+        <section class="w-3/4 mt-4 mx-auto">
+            <div class="grid grid-cols-2 gap-6">
+                <div class="bg-violet-500 p-8 rounded">
+                    <h2 class="text-3xl">Please Deposit</h2>
+                    <input class="block border-2 rounded w-3/4 pl-2 mt-2" type="text"
+                        placeholder="$amount you want to deposit">
+                    <button id="button-submit" class="bg-red-400 px-6 py-2 mt-4 rounded text-white">Deposit</button>
+                </div>
+                <div class="bg-cyan-500 p-8 rounded">
+                    <h2 class="text-3xl">Please Withdraw</h2>
+                    <input class="block border-2 rounded w-3/4 pl-2 mt-2" type="text"
+                        placeholder="$amount you want to withdraw">
+                    <button id="button-submit" class="bg-red-400 px-6 py-2 mt-4 rounded text-white">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
